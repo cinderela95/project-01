@@ -75,12 +75,6 @@ a {
   z-index: 1;
 }
 
-.hero-wrap {
-  position: relative;
-  height: calc(100vh - 88px);
-  background-color: #e6f0ff;
-}
-
 .navbar {
   display: flex;
   align-items: center;
@@ -123,8 +117,15 @@ a {
   border-radius: 8px;
 }
 
+/* Hero */
+
 .hero {
-  padding-top: 130px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 88px);
+  background-color: #e6f0ff;
 }
 
 .hero .info {
